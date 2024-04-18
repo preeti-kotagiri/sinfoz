@@ -1,0 +1,138 @@
+USE book_store;
+
+
+CREATE TABLE customers(
+customerID VARCHAR(100),
+customerName VARCHAR(100),
+orderAmount INT,
+city VARCHAR(100),
+country VARCHAR(100)
+);
+
+
+INSERT INTO customers(customerID, customerName, orderAmount, city, country)
+VALUES('XWE11290S', 'eric craptree', 500, 'london', 'united kingdom');
+
+INSERT INTO customers(customerID, customerName, orderAmount, city, country)
+VALUES('YTSH00920K', 'claire rudolf', 235, 'toronto', 'canada');
+
+INSERT INTO customers(customerID, customerName, orderAmount, city, country)
+VALUES('UKSH928FF', 'diksha singh', 1300, 'new york', 'united states');
+
+INSERT INTO customers(customerID, customerName, orderAmount, city, country)
+VALUES('IKSH25632B', 'frank chika', 789, 'lagos', 'nigeria');
+
+INSERT INTO customers(customerID, customerName, orderAmount, city, country)
+VALUES('IKSH25632B', 'frank chika', 1800, 'lagos', 'nigeria');
+
+INSERT INTO customers(customerID, customerName, orderAmount, city, country)
+VALUES('XWE11290S', 'eric craptree', 825, 'london', 'united kingdom');
+
+INSERT INTO customers(customerID, customerName, orderAmount, city, country)
+VALUES('AJSD009SK', 'AJ amelda', 2000, 'vancouver', 'canada');
+
+INSERT INTO customers(customerID, customerName, orderAmount, city, country)
+VALUES('YUSHJ8182', 'stella amadi', 450, 'berlin', 'germany');
+
+INSERT INTO customers(customerID, customerName, orderAmount, city, country)
+VALUES('YTSH00920K', 'claire rudolf', 800, 'toronto', 'canada');
+
+INSERT INTO customers(customerID, customerName, orderAmount, city, country)
+VALUES('NHSGDJSS', 'janet phillips', 340, 'frankfurt', 'germany');
+
+INSERT INTO customers(customerID, customerName, orderAmount, city, country)
+VALUES('HJHD00900', 'nurlan phillips', 2450, 'osh', 'kyrgyzstan');
+
+INSERT INTO customers(customerID, customerName, orderAmount, city, country)
+VALUES('XWE11290S', 'eric craptree', 1200, 'london', 'united kingdom');
+
+INSERT INTO customers(customerID, customerName, orderAmount, city, country)
+VALUES('TTYD9989S', 'tatenda amaechi', 1150, 'harare', 'zimbabwe');
+
+INSERT INTO customers(customerID, customerName, orderAmount, city, country)
+VALUES('KSGH910SD', 'janet phillips', 2750, 'frankfurt', 'germany');
+
+INSERT INTO customers(customerID, customerName, orderAmount, city, country)
+VALUES('IKSH25632B', 'frank chika', 2100, 'lagos', 'nigeria');
+
+INSERT INTO customers(customerID, customerName, orderAmount, city, country)
+VALUES('AJSD0UUK', 'sheila yun', 400, 'kawasaki', 'japan');
+
+INSERT INTO customers(customerID, customerName, orderAmount, city, country)
+VALUES('YDGHS0090', 'james ferguson', 1400, 'birmingham', 'united kingdom');
+
+INSERT INTO customers(customerID, customerName, orderAmount, city, country)
+VALUES('YUUIEO982', 'brenda holloway', 800, 'vancouver', 'canada');
+
+INSERT INTO customers(customerID, customerName, orderAmount, city, country)
+VALUES('YUUIEO982', 'brenda holloway', 1300, 'vancouver', 'canada');
+
+INSERT INTO customers(customerID, customerName, orderAmount, city, country)
+VALUES('UKSH928FF', 'diksha singh', 300, 'new york', 'united states');
+
+INSERT INTO customers(customerID, customerName, orderAmount, city, country)
+VALUES('09UYEUNS', 'carol sue', 900, 'amsterdam', 'netherlands');
+
+INSERT INTO customers(customerID, customerName, orderAmount, city, country)
+VALUES('VBNJJKD099', 'frank peterson', 1800, 'bremen', 'germany');
+
+INSERT INTO customers(customerID, customerName, orderAmount, city, country)
+VALUES('JUJSUJD02', 'celina park', 780, 'tokyo', 'japan');
+
+INSERT INTO customers(customerID, customerName, orderAmount, city, country)
+VALUES('YTSH00920K', 'claire rudolf',  800, 'toronto', 'canada');
+
+INSERT INTO customers(customerID, customerName, orderAmount, city, country)
+VALUES('CGS9WJ73S', 'david myers', 250, 'houston', 'united states');
+
+INSERT INTO customers(customerID, customerName, orderAmount, city, country)
+VALUES('UMBB873ND', 'bob delon', 2400, 'instabul', 'turkey');
+
+INSERT INTO customers(customerID, customerName, orderAmount, city, country)
+VALUES('NHSTTEY00', 'masha phillips', 2840, 'frankfurt', 'germany');
+
+INSERT INTO customers(customerID, customerName, orderAmount, city, country)
+VALUES('TTYD9OOO9', 'tafadzwa collins', 150, 'harare', 'zimbabwe');
+
+INSERT INTO customers(customerID, customerName, orderAmount, city, country)
+VALUES('HJNHNS909', 'mike caleb', 1125, 'osh', 'kyrgyzstan');
+
+INSERT INTO customers(customerID, customerName, orderAmount, city, country)
+VALUES('JUHS6625K', 'sean marvel', 2200, 'london', 'united kingdom');
+
+INSERT INTO customers(customerID, customerName, orderAmount, city, country)
+VALUES('TTYD9OOO9', 'tafadzwa collins', 3150, 'harare', 'zimbabwe');
+
+INSERT INTO customers(customerID, customerName, orderAmount, city, country)
+VALUES('ZZXH910SD', 'megan hopkins', 900, 'frankfurt', 'germany');
+
+INSERT INTO customers(customerID, customerName, orderAmount, city, country)
+VALUES('ZZXH977YYUD', 'zainab usman', 900, 'frankfurt', 'germany');
+
+INSERT INTO customers(customerID, customerName, orderAmount, city, country)
+VALUES('JFSBBNS32B', 'femi oshun', 3300, 'abuja', 'nigeria');
+
+INSERT INTO customers(customerID, customerName, orderAmount, city, country)
+VALUES('YUSHJ87Y7Y', 'paulina mascot', 2000, 'berlin', 'germany');
+
+INSERT INTO customers(customerID, customerName, orderAmount, city, country)
+VALUES('MKGHHJ17y6y', 'marie denairs', 2000, 'paris', 'france');
+
+INSERT INTO customers(customerID, customerName, orderAmount, city, country)
+VALUES('KHHNBS767', 'ahmed bello', 1200, 'instabul', 'turkey');
+
+INSERT INTO customers(customerID, customerName, orderAmount, city, country)
+VALUES('989NNSHJ09', 'peter chung', 1150, 'tokyo', 'japan');
+
+INSERT INTO customers(customerID, customerName, orderAmount, city, country)
+VALUES('BNDH0213K', 'victor myers', 3250, 'houston', 'united states');
+
+
+
+
+
+
+
+
+
+
